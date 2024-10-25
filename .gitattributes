@@ -1,0 +1,14 @@
+# Указываем, что файлы Delphi
+*.pas linguist-language=Delphi
+*.dpr linguist-language=Delphi
+*.dfm linguist-language=Delphi
+*.dcu linguist-language=Delphi
+
+# Указываем, что файлы не являются сгенерированными
+*.pas linguist-vendored=false
+*.dpr linguist-vendored=false
+*.dfm linguist-vendored=false
+*.dcu linguist-vendored=false
+
+# Игнорируем другие языки
+*.pasc linguist-language=Pascal
